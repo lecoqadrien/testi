@@ -1,0 +1,83 @@
+header{
+
+    section{
+        margin: 0 auto;
+        width: 90%;
+        background: none;
+        display: flex;
+        justify-content: center;
+
+        @media(max-width: $mobile){
+            display: block;
+        }
+
+        article:nth-child(1){
+            display: flex;
+            height: 90%;
+            flex-direction: column;
+            width: 500px;
+            background: none;
+            align-content: center;
+            justify-content: center;
+            float: left;
+            margin-left: 24px;
+           
+            
+    
+            h1{
+                font-family: Lato;
+                font-size: 40px;
+                color: white;
+                font-weight: 700;
+            }
+            
+            h3{
+                font-family: Lato;
+                font-size: 24px;
+                font-weight: 300;
+                color: white;
+                
+            }
+    
+            button{
+                width: 55%;
+                height: 34px;
+                text-decoration: none;
+                background: yellow;
+                border: none;
+                border-radius: 10px;
+                font-size: 14px;
+                font-family: Lato;
+            }
+        }
+    
+        article:nth-child(2){
+            height: 80%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-direction: column;
+            width: 500px;
+            background: none;
+            float: left;
+
+            @media(max-width: $mobile){
+              
+                display: none;
+            }
+    
+            img {
+                width: 100%;
+                
+
+                @media(max-width: $mobile){
+                    opacity: 1;
+                    display: none;
+                }
+            }
+    
+        }
+   
+        
+    }
+}

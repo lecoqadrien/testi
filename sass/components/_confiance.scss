@@ -1,0 +1,82 @@
+#confiance{
+   
+
+    h2{
+        text-align: center;
+        font-family: Lato;
+        color: white;
+        @media(max-width: $mobile){
+           
+            margin-bottom: 40px;
+        }
+    }
+    
+
+    section{
+        margin: 0 auto;
+       
+        background: none;
+        width:90%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        
+
+        @media(max-width: $mobile){
+            height: 45vh;
+            background: none;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        article{
+            
+            width: 350.3px;
+            background: rgba(0, 167, 213, 0.1);;
+            box-shadow : 2px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            
+            @media(max-width: $tablette){
+                width: 300px;
+            }
+
+            @media(max-width: $mobile){
+                margin-top: 20px;
+            }
+
+            
+            h4{
+                font-size: 40px;
+                position: relative;
+                color: #FFCA00;
+                bottom: 10px;
+                
+            }
+            h3{
+                font-family: Lato;
+                margin-left: 30px;
+                color: white;
+                font-weight: 700;
+                
+                
+            }
+
+            p{
+                font-family: Lato;
+                margin-left: 30px;
+                color: white;
+                font-weight: 300;
+                font-size: 14px;
+                
+            }
+
+           
+            
+        }
+    }
+    
+}
+
+    
+   
